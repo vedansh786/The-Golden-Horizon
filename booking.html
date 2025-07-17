@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="booking.css">
+  <link rel="icon" href="Golden_Horizon_Logo_croped-removebg.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>The Golden Horizon - Book a Room at Any One of Our Exquisite Locations</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- THE 1ST MENU -->
+      <div class="navbar-container">
+        <nav class="navbar">
+          <div class="logo-main">
+            <a href="TheGoldenHorizon.html"><img src="Golden_Horizon_Logo_croped-removebg.png" alt="T.G.H"
+                style="height: 54px;">The Golden Horizon</a>
+          </div>
+          <div class="signin">
+            <button class="signin-btn">
+              <a href="login-and-reg.html" target="_blank">Sign In or Join</a>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- THE 2ND MENU -->
+    <div class="nav-component-2">
+      <div class="navbar-container">
+        <nav class="navbar">
+          <div class="list">
+            <ul type="none">
+              <li><a href="#">Hotels & Resorts</a></li>
+              <li><a href="#">Residences</a></li>
+              <li><a href="#">Yachts</a></li>
+              <li><a href="#">About The Golden Horizon</a></li>
+              <li><a href="#">The Journey</a></li>
+            </ul>
+          </div>
+          <div class="reserve">
+            <button class="reserve-btn">
+              <a href="#" target="_blank">Reserve Now</a>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+
+
+    <div class="container-booking">
+
+      <div class="booking-container">
+
+        <table class="booking-table">
+
+          <tr>
+            <td>
+              <form name="bookingForm">
+                <!-- Column 1: Location of Stay (Dropdown) -->
+                <label for="location">
+                  <p class="headers">Location of Stay: </p>
+                </label>
+                <select id="location" name="Location">
+                  <option value="Kapalua">
+                    <p class="dropdowns">The Golden Horizon Maui, Kapalua</p>
+                  </option>
+                  <option value="Mexico">
+                    <p class="dropdowns">The Golden Horizon, Mexico City</p>
+                  </option>
+                  <option value="Oman">
+                    <p class="dropdowns">Al Bustan Palace, a Golden Horizon Hotel</p>
+                  </option>
+                  <option value="Budapest">
+                    <p class="dropdowns">The Golden Horizon, Budapest</p>
+                  </option>
+                  <option value="Perth">
+                    <p class="dropdowns">The Golden Horizon, Perth</p>
+                  </option>
+                  <option value="Miami">
+                    <p class="dropdowns">The Golden Horizon, South Beach</p>
+                  </option>
+                  <option value="Naples">
+                    <p class="dropdowns">The Golden Horizon, Naples</p>
+                  </option>
+                </select>
+            </td>
+            <td>
+              <!-- Column 2: Check-In and Check-Out Dates -->
+              <label for="fromDate">
+                <p class="headers">Check-In Date: </p>
+              </label>
+              <input type="date" name="fromDate">
+              <label for="toDate">Check-Out Date: <p></p></label>
+              <input type="date" name="toDate">
+            </td>
+            <td>
+              <!-- Column 3: Number of Rooms and Room Class -->
+              <label for="rooms">
+                <p class="headers">Number of Rooms: </p>
+              </label>
+              <input type="number" name="rooms" min="1" value="1">
+              <br>
+              <label for="roomClass">
+                <p class="headers">Room Class: </p>
+              </label>
+              <select id="roomClass" name="roomClass">
+                <option value="VIP">VIP</option>
+                <option value="Luxsuite">Luxury Suite</option>
+                <option value="Suite">Suite</option>
+                <option value="Premium">Premium Room</option>
+                <option value="Regular">Regular Room</option>
+                <!-- Add more room class options as needed -->
+              </select>
+            </td>
+            <td>
+              <!-- Column 4: Number of Adults and Children -->
+              <label for="adults">
+                <p class="headers">Number of Adults: </p>
+              </label>
+              <input type="number" name="adults" min="1" value="1">
+              <br>
+              <label for="children">
+                <p class="headers">Number of Children: </p>
+              </label>
+              <input type="number" name="children" min="0" value="0">
+            </td>
+          </tr>
+        </table>
+        <button type="submit" class="book-now-btn">
+          <a href="TheGoldenHorizon.html" target="_self">Confirm Booking</a>
+        </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="row pt-1">
+        <div class="margin-sep1"></div>
+        <div class="dflex-col1">
+          <div class="col pt-1">
+            <ul class="brand-footer__list">
+              <li class="li-top"><a href="#" target="_blank">Careers</a></li>
+              <li class="li-top"><a href="#" target="_blank">The Golden Horizon Club</a></li>
+              <li class="li-top"><a href="#" target="_blank">The Golden Horizon Leadership Center</a></li>
+              <li class="li-top"><a href="#" target="_blank">Marriott Bonvoy</a></li>
+              <li class="li-top"><a href="#" target="_blank">Contact</a></li>
+              <li class="li-top"><a href="#" target="_blank">Media Contact</a></li>
+              <li class="li-top-16-24"><a href="#" target="_blank">Tracking Preferences</a></li>
+              <li class="li-top-16-24"> </li>
+            </ul>
+          </div>
+          <div class="col pt-2">
+            <ul class="brand-footer__icons">
+              <li class="social_media_icons"><a href="https://www.instagram.com/"><i
+                    class="fa-brands fa-instagram"></i></a></li>
+              <li class="social_media_icons"><a href="https://www.twitter.com/"><i
+                    class="fa-brands fa-x-twitter"></i></a></li>
+              <li class="social_media_icons"><a href="https://www.facebook.com/"><i
+                    class="fa-brands fa-facebook"></i></a></li>
+              <li class="social_media_icons"><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-2">
+        <div class="registered-col1">
+          <div class="registered-subcol1">
+            <p>GH® is a Registered Service Mark of The Golden Horizon, Limited, and is used by The Golden Horizon
+              Company under License.</p>
+            <p>&copy; 2023 Golden Horizon Resorts & Spa. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="text/javascript">
+    document.querySelector(".book-now-btn a").addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent the link from navigating to the URL
+      var location = document.bookingForm.location.value;
+      var fromDate = document.bookingForm.fromDate.value;
+      var toDate = document.bookingForm.toDate.value;
+      var rooms = document.bookingForm.rooms.value;
+      var roomClass = document.bookingForm.roomClass.value;
+      var adults = document.bookingForm.adults.value;
+      var children = document.bookingForm.children.value;
+
+      var message = "Location of Stay: " + location +
+        "\nCheck-In Date: " + fromDate +
+        "\nCheck-Out Date: " + toDate +
+        "\nNumber of Rooms: " + rooms +
+        "\nRoom Class: " + roomClass +
+        "\nNumber of Adults: " + adults +
+        "\nNumber of Children: " + children;
+
+      alert(message);
+    });
+  </script>
+</body>
+
+</html>
